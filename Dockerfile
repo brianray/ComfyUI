@@ -24,5 +24,5 @@ RUN pip install -r requirements.txt
 # copy project
 COPY . /usr/src/app
 
-EXPOSE 8080
-CMD ["python", "comfy/main.py", "main.py", "0.0.0.0:8080"]
+EXPOSE 8188
+CMD ["python", "comfy/main.py", "main.py"]
